@@ -74,11 +74,11 @@ def solidarity_tax_calc(income,tax_per_1,tax_per_2,tax_per_3,tax_per_4,tax_per_5
         sum_s_tax = tax_1 + tax_2 + tax_3 + tax_4 + tax_5 + tax_6
     return sum_s_tax
 
-# annual_income = float(input("Εισάγετε το ετήσιο εισόδημα: "))
-# receipt = float(input("Εισάγετε το ποσό ηλεκτρονικών αποδείξεων: "))
+annual_income = float(input("Εισάγετε το ετήσιο εισόδημα: "))
+receipt = float(input("Εισάγετε το ποσό ηλεκτρονικών αποδείξεων: "))
 
-annual_income = 25000 #for testing
-receipt = 3000 #for testing
+# annual_income = 25000 #for testing
+# receipt = 3000 #for testing
 
 
 tax_income = calculate_tax_income(annual_income,0.09,0.22,0.28,0.36,0.44)
